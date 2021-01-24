@@ -1,12 +1,17 @@
-// 1. Kilometer to Meter  :
+// https://github.com/omarfarhan2002/assignment
 
-function kilometerToMeter(kilo)
+
+
+
+//1. Kilometer to Meter function :
+
+function kilometerToMeter(Kilometer)
 {
-    if(kilo<0)
+    if(Kilometer<0)
     {
         return ("Distance can not be negative.");
     } else {
-        return meter=kilo*1000;
+        return meter=kilometer*1000;
     }
     
 }
@@ -19,7 +24,7 @@ console.log(Pos_Distance)
 
 
 
-// 2. Budget Calculator :
+// 2. Budget Calculator function:
 
 function budgetCalculator(watch,phone,laptop)
 {
@@ -51,7 +56,7 @@ console.log(calculator);
 
 
 
-//3. Hotel Cost :
+//3. Hotel Cost function:
 
 
 function hotelCost(Days)
@@ -88,7 +93,7 @@ console.log(cost);
 
 
 
-//4. Mega Friend :
+//4. Mega Friend function:
 
 
 function megaFriend(names)
