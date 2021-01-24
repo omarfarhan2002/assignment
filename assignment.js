@@ -51,7 +51,7 @@ function budgetCalculator(watch,phone,laptop)
     var total= Price1+Price2+Price3;
     return (total);
 }
-var calculator = budgetCalculator(5,6,7);
+var calculator = budgetCalculator(12,6,3);
 console.log(calculator);
 
 
